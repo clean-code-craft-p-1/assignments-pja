@@ -17,12 +17,6 @@ While breaking down, consider:
 
 ## Pick a language for your assignment
 
-[C++](https://classroom.github.com/a/UlWUoaa2)
-
-[C#](https://classroom.github.com/a/pNFzSZ0_)
-
 [Java](https://classroom.github.com/a/zppnX9Mp)
-
-[Python](https://classroom.github.com/a/1LE2CIqi)
 
 [JavaScript](https://classroom.github.com/a/Sb0rd8wm)
