@@ -47,10 +47,23 @@ It's like brushing your teeth - do it every day to keep your teeth healthy.
 graph TD
     M["Modularity"] --> T["FIRST tests"]
     T --> F["Frequent releases"]
-    F --> C["Continuous improvement"]
+    F --> C["Continuous improvement<br>Shift left"]
     C --> X["Control complexity"]
     X --> M
 ```
+
+## Ecosystem
+
+| Purpose        | Recommendation          |
+| -------------- | ----------------------- |
+| JDK            | Eclipse Temurin OpenJDK |
+| Language level | Java 21 or 25           |
+| Build tool     | Maven or Gradle         |
+| Framework      | Spring Boot             |
+| Testing        | JUnit 5 + Mockito       |
+| Packaging      | Docker                  |
+| Deployment     | Kubernetes              |
+| IDE            | VS Code, Eclipse        |
 
 ## Modularity
 
