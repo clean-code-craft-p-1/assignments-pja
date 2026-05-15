@@ -52,18 +52,26 @@ graph TD
     X --> M
 ```
 
-## Ecosystem
+## Java Ecosystem
 
-| Purpose        | Recommendation          |
+| Purpose        | Examples                |
 | -------------- | ----------------------- |
-| JDK            | Eclipse Temurin OpenJDK |
+| JDK            | Temurin OpenJDK         |
 | Language level | Java 21 or 25           |
+| IDE            | VS Code, Eclipse        |
 | Build tool     | Maven or Gradle         |
 | Framework      | Spring Boot             |
 | Testing        | JUnit 5 + Mockito       |
 | Packaging      | Docker                  |
 | Deployment     | Kubernetes              |
-| IDE            | VS Code, Eclipse        |
+
+## LLM Ecosystem
+
+Recognize:
+
+1. Your prompt
+1. Its context
+1. Model
 
 ## Modularity
 

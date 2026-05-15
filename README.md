@@ -22,6 +22,11 @@ by Kent Beck, ISBN: 9780321146533
 >each test can cover a small increment of functionality
 
 ---
+[Working Effectively with Legacy Code](https://www.oreilly.com/library/view/working-effectively-with/0131177052/) by Michael Feathers
+
+>Code without tests is bad code.
+
+---
 [Refactoring, Improving the Design of Existing Code](https://martinfowler.com/books/refactoring.html) by Martin Fowler with Kent Beck
 
 >Good programmers write code that humans can understand.
