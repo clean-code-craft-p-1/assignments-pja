@@ -78,3 +78,41 @@ Recognize:
 Modularity is the practice of breaking down code into smaller pieces. This makes it easier to understand, test, and maintain.
 
 However, cutting code arbitrarily can lead to confusion. [Naming by purpose](naming.md) is the easiest way to validate if you're on the right path. Explore this, and more ways to reduce cognitive load.
+
+Other principles that help in a beneficial cut:
+
+### Separate by lifecycle
+
+Keep stable code separate from evolving code.
+The feature to "display the summary" can change by user-preference.
+Hence, separate it from "reading the data", which goes by a standard / agreed interface.
+
+### Name by purpose
+
+Names for files, classes, or functions should be self-evident.
+A good name conveys purpose - without digging further into their code or comments.
+This saves time when reading code.
+
+### Avoid side effects
+
+Side effects are changes to state - display, storage, network, etc.
+They bring dependency. Isolate your logic into pure functions that return a value without changing the state.
+Keep dependencies separate.
+
+### Inject dependencies
+
+When it isn't possible to isolate with pure functions, inject dependencies.
+Pass in the dependencies as parameters, rather than hardcoding them.
+This makes it easy to mock the dependencies in tests, and to swap them out in production.
+
+## Tests
+
+Follow the FIRST principles for writing tests:
+
+| Principle | Enables | Benefits |
+|-----------|---------|----------|
+| Fast      | Frequent execution | Find issues early |
+| Independent| Isolation of tests | Easier failure diagnosis |
+| Repeatable | Consistent results | Stable tests, low maintenance |
+| Self-validating| Automatic pass/fail | Reduced manual effort - single Pass/Fail result |
+| Thorough   | Coverage with strong asserts | Passing tests ensure customer satisfaction |
