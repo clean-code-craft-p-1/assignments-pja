@@ -116,3 +116,20 @@ Follow the FIRST principles for writing tests:
 | Repeatable | Consistent results | Stable tests, low maintenance |
 | Self-validating| Automatic pass/fail | Reduced manual effort - single Pass/Fail result |
 | Thorough   | Coverage with strong asserts | Passing tests ensure customer satisfaction |
+
+### Boundary under test
+
+What you prove: "It functions as expected". What is "it"?
+
+- The logic?
+- With its dependencies?
+- In one configuration?
+- In one caller?
+
+## AI generation - intuition
+
+Use-cases:
+
+- AI for Code-generation, understanding legacy code
+- AI for end-user functionality (e.g., summarization, chat-bot)
+- AI for automation (e.g., voice agents, meetings)
