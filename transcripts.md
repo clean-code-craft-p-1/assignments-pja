@@ -52,6 +52,18 @@ graph TD
     X --> M
 ```
 
+## Tests
+
+Follow the FIRST principles for writing tests:
+
+| Principle | Enables | Benefits |
+|-----------|---------|----------|
+| Fast      | Frequent execution | Find issues early |
+| Independent| Isolation of tests | Easier failure diagnosis |
+| Repeatable | Consistent results | Stable tests, low maintenance |
+| Self-validating| Automatic pass/fail | Reduced manual effort - single Pass/Fail result |
+| Thorough   | Coverage with strong asserts | Passing tests ensure customer satisfaction |
+
 ## Java Ecosystem
 
 | Purpose        | Examples                |
@@ -104,18 +116,6 @@ Keep dependencies separate.
 When it isn't possible to isolate with pure functions, inject dependencies.
 Pass in the dependencies as parameters, rather than hardcoding them.
 This makes it easy to mock the dependencies in tests, and to swap them out in production.
-
-## Tests
-
-Follow the FIRST principles for writing tests:
-
-| Principle | Enables | Benefits |
-|-----------|---------|----------|
-| Fast      | Frequent execution | Find issues early |
-| Independent| Isolation of tests | Easier failure diagnosis |
-| Repeatable | Consistent results | Stable tests, low maintenance |
-| Self-validating| Automatic pass/fail | Reduced manual effort - single Pass/Fail result |
-| Thorough   | Coverage with strong asserts | Passing tests ensure customer satisfaction |
 
 ### Boundary under test
 
