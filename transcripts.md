@@ -64,18 +64,18 @@ Follow the FIRST principles for writing tests:
 | Self-validating| Automatic pass/fail | Reduced manual effort - single Pass/Fail result |
 | Thorough   | Coverage with strong asserts | Passing tests ensure customer satisfaction |
 
-## Java Ecosystem
+## Ecosystem
 
-| Purpose        | Examples                |
-| -------------- | ----------------------- |
-| JDK            | Temurin OpenJDK         |
-| Language level | Java 21 or 25           |
-| IDE            | VS Code, Eclipse        |
-| Build tool     | Maven or Gradle         |
-| Framework      | Spring Boot             |
-| Testing        | JUnit 5 + Mockito       |
-| Packaging      | Docker                  |
-| Deployment     | Kubernetes              |
+| Purpose        | Examples - Java         | Examples - C# |
+| -------------- | ----------------------- |---------------|
+| Development (JDK) | Temurin OpenJDK      | .Net SDK      |
+| Language       | Java 21 or 25           | C# 13 or 15   |
+| Development (IDE) | VS Code, Eclipse     | Visual Studio, VS Code |
+| Build          | Maven or Gradle         | dotnet        |
+| Framework      | Spring Boot             | ASP.Net       |
+| Testing        | JUnit 5 + Mockito       | xUnit         |
+| Packaging      | Docker                  | Docker        |
+| Deployment     | Kubernetes              | Kubernetes    |
 
 ## LLM Ecosystem
 
